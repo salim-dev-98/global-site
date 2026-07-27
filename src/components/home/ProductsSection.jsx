@@ -30,7 +30,7 @@ function ProductsSection() {
   return (
     <section className="section section--alt">
       <Container>
-        <Reveal className="section-header">
+        <Reveal className="section-header section-header--wide">
           <span className="eyebrow">Our Products</span>
           <h2 className="section-title">Modern Solutions Built for Real Needs</h2>
         </Reveal>

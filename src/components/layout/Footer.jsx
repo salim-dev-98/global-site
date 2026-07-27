@@ -29,7 +29,7 @@ function Footer() {
     <footer className="site-footer">
       <Container>
         <div className="footer-grid">
-          <div>
+          <div className="footer-brand">
             <img src={logo} alt="Global Retirement Inc. logo" className="footer-logo" />
             <p className="footer-desc">
               Ethical global training and support to access your savings tax
@@ -37,7 +37,7 @@ function Footer() {
             </p>
           </div>
 
-          <div>
+          <div className='mebnr-left-sapce'>
             <h3 className="footer-heading">Quick Links</h3>
             <ul className="footer-links">
               {quickLinks.map((link) => (
@@ -50,7 +50,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className='cont-text'>
             <h3 className="footer-heading">Contact</h3>
             <ul className="contact-list">
               <li>

@@ -19,6 +19,8 @@ function Products() {
   const products = [...allProducts].sort((a, b) => {
     if (sort === 'price-asc') return a.price - b.price
     if (sort === 'price-desc') return b.price - a.price
+    if (sort === 'popularity') return b.popularity - a.popularity
+    if (sort === 'latest') return new Date(b.dateAdded) - new Date(a.dateAdded)
     return 0
   })
 
